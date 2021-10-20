@@ -1,0 +1,38 @@
+/* Background color top Navbar */
+.topnav {
+    background-color: rgb(57, 5, 61);
+    overflow: hidden;
+}
+
+/* Style links in top Navbar */
+.topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+
+/* Socials top Navbar on the right side */
+
+.navbar2 a {
+    float: right;
+}
+
+/* Style links in top Navbar while hover */ 
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* Style links in top Navbar while cliked or active */ 
+.topnav a.active {
+    background-color: rgb(19, 17, 32);
+    color: white;
+}
+
+/* Style of page */
+.pagecontent {
+    color: rgb(83, 34, 95);
+}
