@@ -1,7 +1,15 @@
+/* remove padding */
+#body {s
+    padding: 0;
+    margin: 0;
+}
+
 /* Background color top Navbar */
 .topnav {
     background-color: rgb(57, 5, 61);
     overflow: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 /* Style links in top Navbar */
@@ -9,7 +17,7 @@
     float: left;
     color: whitesmoke;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
     font-size: 17px;
 } 
@@ -35,4 +43,25 @@
 /* Style of page */
 .pagecontent {
     color: rgb(83, 34, 95);
+}
+
+/* css container sidesOfPages */
+.container {
+    display: flex;
+}
+
+/* css leftSideOfThePage */ 
+#leftSideOfThePage {
+    background-color: rgb(24, 0, 37);
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+/* css rightSideOfThePage */ 
+#rightSideOfThePage {
+    background-color: rgb(91, 41, 117);
+    padding: 0;
+    margin: 0;
+    flex: 1;
 }
