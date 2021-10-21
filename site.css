@@ -1,4 +1,4 @@
-/* remove padding */
+/* remove padding body*/
 #body {s
     padding: 0;
     margin: 0;
@@ -38,30 +38,4 @@
 .topnav a.active {
     background-color: rgb(19, 17, 32);
     color: white;
-}
-
-/* Style of page */
-.pagecontent {
-    color: rgb(83, 34, 95);
-}
-
-/* css container sidesOfPages */
-.container {
-    display: flex;
-}
-
-/* css leftSideOfThePage */ 
-#leftSideOfThePage {
-    background-color: rgb(24, 0, 37);
-    padding: 0;
-    margin: 0;
-    flex: 1;
-}
-
-/* css rightSideOfThePage */ 
-#rightSideOfThePage {
-    background-color: rgb(91, 41, 117);
-    padding: 0;
-    margin: 0;
-    flex: 1;
 }
