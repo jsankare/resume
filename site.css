@@ -22,12 +22,6 @@
     font-size: 17px;
 } 
 
-/* Socials top Navbar on the right side */
-
-.navbar2 a {
-    float: right;
-}
-
 /* Style links in top Navbar while hover */ 
 .topnav a:hover {
     background-color: whitesmoke;
@@ -40,16 +34,52 @@
     color: white;
 }
 
+/* Socials top Navbar on the right side */
+
+.navbar2 a {
+    float: right;
+}
+
 /* style whoIAm section */
 
 .whoIAm {
-    background-color: green;
+    background-color: rgb(19, 17, 32);
+    display: flex;
+    text-align-last: center;
+}
+.identity {
+    flex: 1;
+    border-right: 8px solid black;
+    border-radius: 5px;
+}
+.hobbies {
+    flex: 1;
+    border-right: 8px solid black;
+    border-radius: 5px;
+}
+.skills {
+    flex: 1;
 }
 
 /* style WhatICanDo section */
 
 .whatICanDo {
     background-color: grey;
+    display: flex;
+}
+
+#htmlAndCss {
+    border-right: 8px solid black;
+    border-radius: 10px;
+    flex : 1;
+}
+
+#wordpress {
+    flex: 1;
+}
+
+#javascript {
+    
 }
 
 /* style WhatIWannaDo section */
