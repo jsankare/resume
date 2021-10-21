@@ -39,3 +39,27 @@
     background-color: rgb(19, 17, 32);
     color: white;
 }
+
+/* style whoIAm section */
+
+.whoIAm {
+    background-color: green;
+}
+
+/* style WhatICanDo section */
+
+.whatICanDo {
+    background-color: grey;
+}
+
+/* style WhatIWannaDo section */
+
+.whatIWannaDo {
+    background-color: mediumorchid;
+}
+
+/* style endPage */
+
+.endPage {
+    background-color: powderblue;
+}
