@@ -1,25 +1,27 @@
 /* remove padding body*/
-#body {s
+#body {
     padding: 0;
     margin: 0;
 }
 
 /* Background color top Navbar */
 .topnav {
-    background-color: rgb(57, 5, 61);
+    background-color: rgb(51, 4, 54);
     overflow: hidden;
     padding: 0;
     margin: 0;
+    border-radius: 25px;
 }
 
 /* Style links in top Navbar */
 .topnav a {
-    float: left;
+    float: right;
     color: whitesmoke;
     text-align: center;
     padding: 16px 18px;
     text-decoration: none;
     font-size: 17px;
+    margin-right: 15px;
 } 
 
 /* Style links in top Navbar while hover */ 
@@ -34,20 +36,37 @@
     color: white;
 }
 
-/* Socials top Navbar on the right side */
-
-.navbar2 a {
-    float: right;
+/* container css */
+.container {
+    display: flex;
 }
 
-/* style whoIAm section */
+/* leftSide css */
+#leftSide {
+    flex: 1;
+    background-color: rgb(57, 5, 61);
+}
 
-.whoIAm {
-    background-color: rgb(19, 17, 32);
+#profilePicture {
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* rightSide css */
+#rightSide {
+    flex: 4;
+    background-color: whitesmoke;
+}
+
+/* style aboutMe section */
+.aboutMe {
     display: flex;
     text-align-last: center;
 }
-.identity {
+.idkYet {
     flex: 1;
     border-right: 8px solid black;
     border-radius: 5px;
@@ -62,9 +81,7 @@
 }
 
 /* style WhatICanDo section */
-
 .whatICanDo {
-    background-color: grey;
     display: flex;
 }
 
@@ -78,18 +95,27 @@
     flex: 1;
 }
 
-#javascript {
+/* style WhatIWannaDo section */
+.whatIWannaDo {
     
 }
 
-/* style WhatIWannaDo section */
-
-.whatIWannaDo {
-    background-color: mediumorchid;
+/* style footer */
+.footer {
+    
 }
 
-/* style endPage */
+#logoGmail {
+    flex: 1;
+    width: 100px;
+}
 
-.endPage {
-    background-color: powderblue;
+#logoLinkedin {
+    flex: 1;
+    width: 100px;
+}
+
+#logoTwitter {
+    flex: 1;
+    width: 100px;
 }
